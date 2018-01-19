@@ -1,12 +1,13 @@
 import operator
 
-ops = { "+": operator.add, 
-            "-": operator.sub, 
-            "*": operator.mul,  
-            "/": operator.truediv, 
-            "**": operator.pow, 
-            "%": operator.mod 
-            }
+ops = { 
+    "+": operator.add, 
+    "-": operator.sub, 
+    "*": operator.mul,  
+    "/": operator.truediv, 
+    "**": operator.pow, 
+    "%": operator.mod 
+    }
 
 num1 = input("Enter a number (or a letter to exit): ")
 while num1.isdigit():

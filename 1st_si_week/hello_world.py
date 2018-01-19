@@ -7,8 +7,10 @@ params_dict = {
 }
 
 def has_params(params):
-    if params[1:]: return True
-    else: return False
+    if params[1:]: 
+        return True
+    else: 
+        return False
 
 def names(params_list):
     names = []
